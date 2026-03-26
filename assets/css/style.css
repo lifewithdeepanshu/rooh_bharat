@@ -1,0 +1,43 @@
+:root {
+    --primary: #FF9933; /* Saffron */
+    --secondary: #138808; /* Green */
+    --accent: #000080; /* Navy Blue */
+    --bg-light: #f8f9fa;
+    --text-dark: #212529;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-light);
+    color: var(--text-dark);
+}
+
+.auth-container {
+    max-width: 400px;
+    margin: 80px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-primary:hover {
+    background-color: #e68a2e;
+    border-color: #e68a2e;
+}
+
+.logo-text {
+    font-weight: 800;
+    color: var(--primary);
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.logo-text span {
+    color: var(--secondary);
+}
